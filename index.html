@@ -28,6 +28,8 @@
 		<link rel="stylesheet" href="css/jquery.fullPage.css">
 		<!-- custom -->
 		<link rel="stylesheet" href="css/templatemo-style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+
 
 	</head>
 	<body>
@@ -41,11 +43,11 @@
 					<div class="col-md-2"></div>
 					<div class="col-md-8 wow fadeIn" data-wow-delay="0.9s">
 						<!-- <h3>Simple and Elegant</h3> -->
-						<!-- <h1>Cade Schreger</h1> -->
-						<h2 class="hello">Cade Schreger</h2>
-						<p>Software Engineer</p>
-						<a href="./images/resume.pdf" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">Resume</a>
-						<a href="https://github.com/cschreger" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">Github</a>
+						<h1>Cade Schreger</h1>
+						<!-- <h2 class="hello">Cade Schreger</h2> -->
+						<p class="sub-hello"> Software Engineer</p>
+						<a href="./images/resume.pdf" target="_blank" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">Resume</a>
+						<a href="https://github.com/cschreger" target="_blank" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">Github</a>
 						<a href="#portfolio" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">Recent Projects</a>
 					</div>
 					<div class="col-md-2"></div>
@@ -99,7 +101,7 @@
 							</div>
 							<div class="media-body">
 								<h3 class="media-heading">Personal</h3>
-								<p>Much of my work is inspired by my personal hobbies and passions - such as puzzles, reading, the outdoors, movies, and
+								<p>Much of my work is inspired by my personal hobbies and passions - such as hiking/the outdoors, puzzles, reading, movies, and
 								human psychology/philosophy. When not working, you can often find me talking ad nauseam about one of the aforementioned
 								topics.</p>
 							</div>
@@ -114,22 +116,62 @@
 		<!-- start about -->
 		<div id="about" class="section">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-xs-11 wow fadeInLeft" data-wow-delay="0.9s">
+				<div class="testing">
+					<div class="col-md-6 col-xs-11 wow fadeInLeft" data-wow-delay="0.5s">
 						<h2>Skills</h2>
-						<h4>DESIGNER &AMP; DEVELOPER</h4>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
-						<p>Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+						<h4>DEVELOPER</h4>
+						<p>I believe in having as well-rounded of a skillset as 
+							possible. Listed here you'll find a few of my favorite
+							technologies/languages that I have the highest proficiency in. 
+							<br><br>
+							For a full list of my software engineering 
+							skills, please see my <a href="./images/resume.pdf" target="_blank">resume.</a></p>
 					</div>
-					<li>React</li>
-					<li>Redux</li>
-					<li>Ruby</li>
-					<li>Ruby on Rails</li>
-					<li>Javascript</li>
-					<li>PostgreSQL</li>
-					<li>MongoDB</li>
-					<li>HTML</li>
-					<li>CSS</li>
+					<div class="three-by-three">
+					
+					<div class="three-by-three-one">
+						<li>
+							<i class="devicon-react-original colored"></i>
+							React
+						</li>
+						<li>
+							<i class="devicon-redux-plain colored"></i>
+							Redux
+						</li>
+						<li>
+							<i class="devicon-ruby-plain colored"></i>
+							Ruby
+						</li>
+					</div>
+					<div class="three-by-three-two">
+						<li>
+							<i class="devicon-rails-plain colored"></i>
+							Rails
+						</li>
+						<li>
+							<i class="devicon-javascript-plain colored"></i>
+							Javascript
+						</li>
+						<li>
+							<i class="devicon-postgresql-plain colored"></i>
+							PostgreSQL
+						</li>
+					</div>
+					<div class="three-by-three-three">
+						<li>
+							<i class="devicon-mongodb-plain colored"></i>
+							MongoDB
+						</li>
+						<li>
+							<i class="devicon-html5-plain colored"></i>
+							HTML5
+						</li>
+						<li>
+							<i class="devicon-css3-plain colored"></i>
+							CSS3
+						</li>
+					</div>
+				</div>
 					
 					<!-- <div class="col-md-6 col-xs-11 wow fadeInRight" data-wow-delay="0.9s">
 						<span class="text-top">Web Design <small>95%</small></span>
@@ -167,8 +209,8 @@
 							<div class="portfolio-overlay">
 								<h4>Quickstarter</h4>
 								<h5>A Ruby on Rails, React/Redux, and PostgreSQL-backed clone of Kickstarter</h5>
-								<button>Live</button>
-								<button>Repo</button>
+								<a href="https://quickstarter-heroku.herokuapp.com/" target="_blank">Live</a>
+								<a href="https://github.com/cschreger/QuickStarter" target="_blank">Repo</a>
 							</div>
 					</div>
 				</div>
@@ -179,19 +221,19 @@
 								<h4>Upcycled</h4>
 								<h5>MERN stack group project to promote sustainable crafts and projects</h5>
 								<h5>Technologies: Node.js, Mongoose, MongoDB, Express, Passport</h5>
-								<button>Live</button>
-								<button>Repo</button>
+								<a href="https://upcycled.herokuapp.com/" target="_blank">Live</a>
+								<a href="https://github.com/petiteoh/Upcycled" target="_blank">Repo</a>
 							</div>
 					</div>
 				</div>
 				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
 					<div class="portfolio-thumb">
-						<img src="images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img hero">
+						<img src="images/herohistory.png" class="img-responsive" alt="portfolio img hero">
 							<div class="portfolio-overlay">
 								<h4>HeroHistory</h4>
 								<h5>A D3.js data visualization project showcasing info about the comic book industry.</h5>
-								<button>Live</button>
-								<button>Repo</button>
+								<a href="http://herohistory.io/" target="_blank">Live</a>
+								<a href="https://github.com/cschreger/HeroHistory" target="_blank">Repo</a>
 							</div>
 					</div>
 				</div>

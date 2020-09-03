@@ -168,15 +168,27 @@ h1,h2,h3,h4,h5
 }
 /* end simpletextrotator */
 
-/* start home */       
+/* start home */    
+
+.hello {
+    color: #D43F52;
+    opacity: 1
+}
+
+.sub-hello {
+    color: #D43F52;
+    opacity: 1
+}
+
 #home
 	{
-        background: url('../images/home-bg.jpg');
+        background: url('../images/background.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 120px;
         padding-bottom: 140px;
         text-align: center;
+        opacity: 0.8
 	}
 #home h1
     {
@@ -418,4 +430,18 @@ footer hr
     {
         color: #D43F52;
     }
+
+.three-by-three {
+    width: 70%;
+    display: flex;
+    list-style: none;
+}
+
+.col-xs-11 {
+    width: 50%;
+}
+
+.testing {
+    display: flex;
+}
 /* end social icon */

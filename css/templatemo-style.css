@@ -183,6 +183,11 @@ h1,h2,h3,h4,h5
     opacity: 0
 }
 
+#face {
+    width: 304px;
+    height: 420px;
+}
+
 #home
 	{
         background: url('../images/background.jpg');
